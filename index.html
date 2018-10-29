@@ -41,7 +41,7 @@
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Works</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -63,13 +63,15 @@
         <div class="intro-text">
           <div class="intro-lead-in">Welcome To Vhir!</div>
           <div class="intro-heading text-uppercase">Statistics and Bioinformatics Unit</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="http://www.vhir.org/portal1/webUEB/Alta.aspx">Request Service</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://uebresults.vhir.org">Delivery Results</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://uebvhir.github.io/teaching.html">Teaching</a>
         </div>
       </div>
     </header>
 
     <!-- Services -->
-    <section id="services">
+    <section class="bg-light" id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -83,15 +85,13 @@
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Title 1</h4>
+            <h4 class="service-heading">Clinical Data Analysis</h4>
             <ul class="list-group list-group-flush text-muted">
-              <li class="list-group-item">Statistical and methodological advice on clinical research and high throughput data</li>
-              <li class="list-group-item">Advice on protocol development of research projects</li>
-              <li class="list-group-item">Study design</li>
-              <li class="list-group-item">Sample size calculation</li>
-              <li class="list-group-item">Variable definition</li>
-              <li class="list-group-item">Protocols and data collection forms</li>
-              <li class="list-group-item">Data forat and management for high throughput data studies</li>
+              <li class="list-group-item ul-color">Biostatistical Analysis</li>
+              <li class="list-group-item ul-color">Clinical Trials</li>
+              <li class="list-group-item ul-color">CRF development (Redcap)</li>
+              <li class="list-group-item ul-color">Epidemiological studies</li>
+              <li class="list-group-item ul-color">Data Management for Clinical Trials</li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -99,31 +99,41 @@
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Title 2</h4>
+            <h4 class="service-heading">Omics Data Analysis & Bioinformatics</h4>
             <ul class="list-group list-group-flush text-muted">
-              <li class="list-group-item">Data analysis of clinical research studies</li>
-              <li class="list-group-item">Execution and data analysis</li>
-              <li class="list-group-item">Database design</li>
-              <li class="list-group-item">Validation of measurement procedures</li>
-              <li class="list-group-item">Statistical analysis design</li>
-              <li class="list-group-item">Basic univariate/bivariate descriptive data analysis</li>
-              <li class="list-group-item">Correlation analysis and statistical modelling</li>
+              <li class="list-group-item ul-color">Gene Expression Analysis</li>
+              <li class="list-group-item ul-color">Methylation</li>
+              <li class="list-group-item ul-color">Metagenomics</li>
+              <li class="list-group-item ul-color">Exome sequencing</li>
+              <li class="list-group-item ul-color">Integrative Omics</li>
+              <li class="list-group-item ul-color">Database  / applicationsn development</li>
+              <li class="list-group-item ul-color">High performance Computing (HPC)  services</li>
             </ul>
           </div>
+          <!--<div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-briefcase-medical fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Training</h4>
+            <ul class="list-group list-group-flush text-muted">
+              <li class="list-group-item">Short Workshops</li>
+              <li class="list-group-item">Courses</li>
+              <li class="list-group-item">Official  training (MSc)</li>
+              <li class="list-group-item">Students in practice</li>
+            </ul>
+          </div>-->
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-briefcase-medical fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Title 3</h4>
+            <h4 class="service-heading">Consulting</h4>
             <ul class="list-group list-group-flush text-muted">
-              <li class="list-group-item">High throughput data analysis</li>
-              <li class="list-group-item">Microarray data analysis</li>
-              <li class="list-group-item">RTqPCR (microfluidic cards) data analysis</li>
-              <li class="list-group-item">Exome variant analysis</li>
-              <li class="list-group-item">Metagenomic/metabarcoding studies</li>
-              <li class="list-group-item">RNA-seq data analysis</li>
-              <li class="list-group-item">Other NGS studies</li>
+              <li class="list-group-item ul-color">Sample size</li>
+              <li class="list-group-item ul-color">Experimental design</li>
+              <li class="list-group-item ul-color">GRANT review</li>
+              <li class="list-group-item ul-color">Statistical parts of papers</li>
             </ul>
           </div>
         </div>
@@ -131,15 +141,15 @@
     </section>
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+    <section id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Works</h2>
+            <h3 class="section-subheading text-muted">An Example of what we do</h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row display-flex">
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
@@ -147,11 +157,10 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid img-thumbnail works-thumb" src="img/portfolio/biomarkers_analysis.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+              <h4>Biomarkers analysis</h4>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -161,11 +170,10 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid img-thumbnail works-thumb" src="img/portfolio/data_integration.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
+              <h4>Data Integration</h4>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -175,11 +183,10 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid img-thumbnail works-thumb" src="img/portfolio/DNA_met.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4>DNA methylation</h4>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -189,11 +196,10 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+              <img class="img-fluid img-thumbnail works-thumb" src="img/portfolio/risk_factor.PNG" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
+              <h4>Risk factor</h4>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -203,11 +209,10 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+              <img class="img-fluid img-thumbnail works-thumb" src="img/portfolio/lung_index.PNG" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
+              <h4>Quantitative lung index</h4>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -217,11 +222,10 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+              <img class="img-fluid img-thumbnail works-thumb" src="img/portfolio/postoperative_mort.PNG" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
+              <h4>Postoperative mortality</h4>
             </div>
           </div>
         </div>
@@ -229,6 +233,15 @@
     </section>
 
     <!-- TOOLS -->
+    <!--<div class="container">
+      <div class="row">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="w-100"></div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>-->
 
     <section class="bg-light" id="tools">
       <div class="container">
@@ -238,61 +251,62 @@
             <h3 class="section-subheading text-muted">We use a number of different software's and programs to suit your needs</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="row display-flex">
+          <div class="col-md-4 col-sm-6 portfolio-item mx-auto d-block">
             <a class="portfolio-link" href="https://servirredcap.vhir.org/redcap/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/tools/tools2.png" alt="">
+              <img class="img-fluid tools-size img-thumbnail" src="img/tools/tools2.png" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>REDCap</h4>
-              <p class="text-muted">Research Electronic Data Capture</p>
+              <p class="text-muted align-middle">Research Electronic Data Capture</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-6 portfolio-item mx-auto d-block">
             <a class="portfolio-link" href="https://www.imim.cat/ofertadeserveis/software-public/granmo/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/tools/granmo.jpg" alt="">
+              <img class="img-fluid tools-size img-thumbnail" src="img/tools/granmo.jpg" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>GRANMO</h4>
-              <p class="text-muted">Sample size and power calculator</p>
+              <p class="text-muted align-middle">Sample size and power calculator</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="w-100"></div>
+          <div class="col-md-4 col-sm-6 portfolio-item mx-auto d-block">
             <a class="portfolio-link" href="http://www.comparegroups.eu/wui">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/tools/tools3.png" alt="">
+              <img class="img-fluid tools-size img-thumbnail" src="img/tools/tools3.png" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Compare~Groups</h4>
-              <p class="text-muted">Explore and summarise your epidemiological data in R</p>
+              <h4 class="h4-height">Compare~Groups</h4>
+              <p class="text-muted align-middle">Explore and summarise your epidemiological data in R</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
+          <div class="col-md-4 col-sm-6 portfolio-item mx-auto d-block">
             <a class="portfolio-link" href="http://cinna.upc.edu">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/tools/tools4.png" alt="">
+              <img class="img-fluid tools-size img-thumbnail" src="img/tools/tools4.png" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Shiny Heatmap HMDual</h4>
-              <p class="text-muted">Biostatistics and Bioinformatics Research Groupue</p>
+              <p class="text-muted align-middle">Biostatistics and Bioinformatics Research Groupue</p>
             </div>
           </div>
         </div>
@@ -302,7 +316,7 @@
 
 
     <!-- About -->
-    <section class="bg-light" id="about">
+    <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -657,18 +671,17 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Biomarkers analysis</h2>
+                  <p class="item-intro text-muted">Matrix metalloproteinase 9 is decreased in natalizumab-treated multiple sclerosis patients at risk for progressive multifocal leukoencephalopathy.</p>
+                  <a href="https://www.ncbi.nlm.nih.gov/pubmed/28681388"/><img class="img-fluid d-block mx-auto" src="img/portfolio/biomarkers_analysis.png" alt="">
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Date: August 2017</li>
+                    <li>Client: ???</li>
+                    <li>Category: ???</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -691,18 +704,17 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Data Integration</h2>
+                  <p class="item-intro text-muted">Gene and miRNA expression profiles in PBMCs from patients with severe and mild emphysema and PiZZ alpha1-antitrypsin deficiency.</p>
+                  <a href="https://www.ncbi.nlm.nih.gov/pubmed/29238183"/><img class="img-fluid d-block mx-auto" src="img/portfolio/data_integration.png" alt="">
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Date: November 2017</li>
+                    <li>Client: ???</li>
+                    <li>Category: ???</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -725,18 +737,17 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">DNA methylation</h2>
+                  <p class="item-intro text-muted">Aberrant epigenome in iPSC-derived dopaminergic neurons from Parkinson's disease patients.</p>
+                  <a href="https://www.ncbi.nlm.nih.gov/pubmed/26516212"/><img class="img-fluid d-block mx-auto" src="img/portfolio/DNA_met.jpg" alt="">
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>Date: December 2015</li>
+                    <li>Client: ???</li>
+                    <li>Category: ????</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -759,18 +770,17 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Risk factors</h2>
+                  <p class="item-intro text-muted">The Jarisch-Herxheimer reaction in syphilis: could molecular typing help to understand it better?</p>
+                  <a href="https://www.ncbi.nlm.nih.gov/pubmed/29775498"/><img class="img-fluid d-block mx-auto" src="img/portfolio/risk_factor.PNG" alt="">
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Date: October 2018</li>
+                    <li>Client: ???</li>
+                    <li>Category: ???</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -793,18 +803,17 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Quantitative lung index</h2>
+                  <p class="item-intro text-muted">Follow-up of fetuses with congenital diaphragmatic hernia: The quantitative lung index.</p>
+                  <a href="https://www.ncbi.nlm.nih.gov/pubmed/29627662"/><img class="img-fluid d-block mx-auto" src="img/portfolio/lung_index.PNG" alt="">
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
+                    <li>Date: June 2018</li>
+                    <li>Client: ????</li>
+                    <li>Category: ???</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close</button>
                 </div>
               </div>
             </div>
@@ -827,18 +836,17 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <h2 class="text-uppercase">Postoperative mortality</h2>
+                  <p class="item-intro text-muted">Intensive care admission and hospital mortality in the elderly after non-cardiac surgery.</p>
+                  <a href="https://www.ncbi.nlm.nih.gov/pubmed/29502889"/><img class="img-fluid d-block mx-auto" src="img/portfolio/postoperative_mort.PNG" alt="">
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                    <li>Date: March 2018</li>
+                    <li>Client: ???</li>
+                    <li>Category: ????</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close</button>
                 </div>
               </div>
             </div>

@@ -64,7 +64,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 90px 0;
   }
 }
 
@@ -869,4 +869,38 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+.tools-size{
+  width: 450px; /* You can set the dimensions to whatever you want */
+  height: 450px;
+  object-fit: contain;
+}
+
+#tools{
+  text-align: center;
+}
+.works-thumb{
+  width: 400px; /* You can set the dimensions to whatever you want */
+  height: 400px;
+  object-fit: contain;
+}
+
+.row.display-flex p {
+  /*white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;*/
+  width: 300px;
+  height: 55px;
+}
+.h4-height{
+  height: 55px;
+}
+
+.service-heading{
+  height: 50px;
+}
+.ul-color{
+  overflow: auto;
+  background-color: #f8f9fa;
 }
