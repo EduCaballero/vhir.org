@@ -909,3 +909,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   width:150px;
   height:50px
 }
+
+.bt-princ{
+  width: 275px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  margin-top: 30px;
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+}
