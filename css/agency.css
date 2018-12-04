@@ -911,7 +911,26 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .bt-princ{
-  width: 275px;
+  width: 259px;
+}
+
+@media (max-width: 767px) {
+  .bt-princ{
+    margin-top: 15px;
+  }
+  #mainNav .navbar-brand {
+    color: #a94699;
+    text-shadow: none;
+    font-family: /*-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, */'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+}
+
+@media (max-width: 980px) {
+  #mainNav .navbar-brand {
+    color: #a94699;
+    text-shadow: none;
+    font-family: /*-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, */'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
 }
 
 /* Set the size of the div element that contains the map */
@@ -920,3 +939,4 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   height: 400px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
 }
+
